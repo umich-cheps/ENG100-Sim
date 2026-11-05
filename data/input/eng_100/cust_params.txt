@@ -1,0 +1,3 @@
+patient_sort_style lo_first
+num_high_priority_appointments 5
+num_general_priority_appointments 5

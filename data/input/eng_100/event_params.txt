@@ -1,0 +1,12 @@
+event_type HI_PRIORITY
+distribution uniform
+lower_bound 0
+upper_bound 10
+stopping_criteria num_trials
+threshold 1
+event_type LO_PRIORITY
+distribution uniform
+lower_bound 0
+upper_bound 10
+stopping_criteria num_trials
+threshold 1

@@ -1,0 +1,23 @@
+# pycache files
+__pycache__/
+
+# pytest cache files
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Python virtual environments
+venv/
+
+# IDE/editor specific files
+.vs
+.idea/
+.vscode/
+
+# macOS local files
+.DS_Store
+
+# Simulation log file
+log.txt
