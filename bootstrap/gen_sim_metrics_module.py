@@ -24,7 +24,7 @@ class GenSimMetricsModule:
         self.calculate_statistics()
         metrics = self.sim_core.metrics_table.get_all()
         logger.debug("Printing simulation metrics")
-        logger.info("Statistics: %s", metrics)
+        logger.info("Metrics: %s", "\n".join(str(metric) for metric in metrics))
     
     def calculate_statistics(self):
         """

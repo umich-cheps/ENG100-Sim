@@ -7,7 +7,6 @@ from bootstrap import ReadModule, InitModule, RunSimulationModule, GenSimMetrics
 from simu_core.utils import log_errors
 
 logger = logging.getLogger(__name__)
-np.random.seed(0)
 
 @log_errors
 def run_simulation():
